@@ -6,6 +6,7 @@
 :root{
     /* defined colours */
     --pink: #E86F54;
+    --pink-alt: #E25B41;
     --black: #000000;
 }
 
@@ -91,9 +92,14 @@ ul{
     cursor: pointer;
     background-color: var(--pink);
     border: none;
-    border-radius: 25px;
+    border-radius: 38px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.store-order-button:hover{
+    background-color: var(--pink-alt);
+    box-shadow: 0px 4px 16px 0px rgba(250, 111, 84, 0.20);
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -116,10 +122,6 @@ ul{
     .section-store-list{
         gap: 32px;
     }
-}
-
-@media (min-width: 320px) and (max-width: 1199px) {
-    
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
